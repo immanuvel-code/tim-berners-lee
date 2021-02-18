@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+}
+
+#welcome {
+    height: 800px;
+    background: linear-gradient(#00f7ff 0%, #ff0015 100%)
+}
+
+h1 {
+    font-size: 50px; 
+    font-family: cursive;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: 200;
+    line-height: 1.2;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Hanalei Fill', cursive;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    z-index: 20px;
+}
+
+.links {
+    float: left;
+    color: aqua;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 25px;
+}
+
+.links:hover {
+    background-color: forestgreen;
+}
+    
+
